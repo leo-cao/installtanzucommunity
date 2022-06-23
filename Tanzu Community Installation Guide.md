@@ -1,7 +1,6 @@
 # VMware Tanzu Community Installation Cookbook
 
 
-
 By Leo Cao, Jun 23, 2022
 
 -----------
@@ -32,7 +31,7 @@ E(Intall Tanzu Community) --> F(End)
 ```
 ## Installation Steps
 
-### .Install Ubuntu VM
+### 1 Install Ubuntu VM
 
 #### 1.1 Insatll Hypervior 
 
@@ -51,7 +50,7 @@ Image of Ubuntu 21.04: https://old-releases.ubuntu.com/releases/21.04/ubuntu-21.
  Memeory     | 8 GB 
  Disk        | 50 GB
 
-####1.3 Post-installation preparation
+#### 1.3 Post-installation preparation
 
 Install network tools. 
 ```
@@ -60,12 +59,12 @@ sudo apt install net-tools
 sudo apt curl
 ```
 
-### 2.Install ```kubectl```
+### 2. Install ```kubectl```
 
 Install ```kubectl``` binary with curl on Ubuntu.
  For more information, see Install and Set Up kubectl on Linux in the Kubernetes documentation.https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
-#### 2.1Download the latest release with the command: 
+#### 2.1 Download the latest release with the command: 
 
 ```
 curl -LO https://dl.k8s.io/release/v1.20.1/bin/linux/amd64/kubectl
