@@ -1,4 +1,4 @@
-# Tanzu Community Installation Cookbook
+# VMware Tanzu Community Installation Cookbook
 
 
 
