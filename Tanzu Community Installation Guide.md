@@ -333,8 +333,11 @@ a2f156fe933d   projects.registry.vmware.com/tkg/kind/node:v1.20.4_vmware.1   "/u
 e59ca95c14d7   kindest/haproxy:2.1.1-alpine                                  "/docker-entrypoint.…"   About an hour ago   Up About an hour   35621/tcp, 0.0.0.0:35621->6443/tcp     mgmt-lb
 ```
 The above reflects 1 management cluster and 1 workload cluster, both featuring 1 control plane node and 1 worker node. Each cluster gets an haproxy container fronting the control plane node(s). This enables scaling the control plane into an HA configuration.
+
+
 -----------
-### References
+
+ ### References
 1. Tanzu Documentation: https://tanzucommunityedition.io/docs/v0.12/
 2. Docker Documentation: https://docs.docker.com/get-docker/
 3. Kubenetes Documentation: https://kubernetes.io/docs/home/
