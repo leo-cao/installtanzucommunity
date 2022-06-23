@@ -1,4 +1,4 @@
-# Tanzu Community Installation Guide
+# Tanzu Community Installation Cookbook
 
 
 
