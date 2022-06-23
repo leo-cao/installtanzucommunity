@@ -36,7 +36,7 @@ E(Intall Tanzu Community) --> F(End)
 
 #### 1.1 Insatll Hypervior 
 
-Install VMware Player on Windows Desktop or VMware Fusion on Mac Book.
+Install VMware Workstation on Windows Desktop or VMware Fusion on Mac Book.
 
 #### 1.2 Deploy Ubuntu VM
 
