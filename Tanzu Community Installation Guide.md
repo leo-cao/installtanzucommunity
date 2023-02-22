@@ -336,7 +336,7 @@ The above reflects 1 management cluster and 1 workload cluster, both featuring 1
 
 -----------
 
- ### References
+ ### References:
 1. Tanzu Documentation: https://tanzucommunityedition.io/docs/v0.12/
 2. Docker Documentation: https://docs.docker.com/get-docker/
 3. Kubenetes Documentation: https://kubernetes.io/docs/home/
